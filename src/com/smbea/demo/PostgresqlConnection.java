@@ -9,7 +9,7 @@ import java.sql.Statement;
 /**
  * Postgresql 连接器
  * @author zhaojiafu
- *
+ * Test upload
  * 2016年1月5日 上午11:55:30
  */
 public class PostgresqlConnection {
@@ -21,6 +21,7 @@ public class PostgresqlConnection {
 		String user = null;
 		String password = null;
 		String sql = null;
+		
 		try {
 			Class.forName("org.postgresql.Driver"); // 加载mysq驱动
 		} catch (ClassNotFoundException e) {
